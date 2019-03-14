@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/bgToolbar</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorWhite</item>
+    </style>
+
+    <style name="menuitemcolor" parent="AppTheme">
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+        <item name="drawerArrowStyle">@style/changecolordrawertoogle</item>
+    </style>
+
+    <style name="changecolordrawertoogle" parent="Base.Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/colorWhite</item>
+    </style>
+
+    <style name="capfalse" parent="TextAppearance.Design.Tab" >
+        <item name="textAllCaps">false</item>
+    </style>
+
+</resources>

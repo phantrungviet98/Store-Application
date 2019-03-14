@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Store Application</string>
+    <string name="open">Mở</string>
+    <string name="close">Đóng</string>
+    <string name="facebook_app_id">313970252636559</string>
+    <string name="fb_login_protocol_scheme">fb313970252636559</string>
+
+</resources>
